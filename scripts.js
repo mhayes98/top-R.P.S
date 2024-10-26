@@ -66,7 +66,7 @@ function playGame() {
     {console.log(`You win! ${player_score} Wins -${computer_score} Losses`)}
 
     else if (player_score < computer_score)
-        {console.log(`You lose. ${player_score} Loss(es) - ${computer_score} Win(s)`)}
+        {console.log(`You lose. ${computer_score} Loss(es) - ${player_score} Win(s)`)}
 
     else
         {console.log("There is no winner this game.");}
